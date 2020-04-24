@@ -1,29 +1,19 @@
-# yingyinhui
+# electron demo
 
-## Project setup
+## 安装依赖包
+
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### 启动脚本命令
+
 ```
-yarn run serve
+yarn run electron:serve
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+### 打包安装包
 
-### Run your tests
 ```
-yarn run test
+yarn run electron:build
 ```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

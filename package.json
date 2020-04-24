@@ -3,12 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint --fix",
     "electron:build": "vue-cli-service electron:build",
     "build:win": "vue-cli-service electron:build --win",
-    "build:win1": "electron -w=nsis --ia32",
     "build:mac": "vue-cli-service electron:build --macos",
     "electron:serve": "vue-cli-service electron:serve",
     "postinstall": "electron-builder install-app-deps",
