@@ -2,7 +2,7 @@
   <div class="video">
     <video
       autoplay
-      class="video-js vjs-default-skin vjs-big-play-centered vjs-fluid"
+      class="video-js vjs-default-skin vjs-big-play-centered vjs-fluid vjs-16-9"
       controls
       id="my-player"
       preload="auto"
@@ -11,13 +11,19 @@
     </video>
   </div>
 </template>
-<style scoped>
+<style lang="stylus" scoped>
 .video {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   background: #000;
+}
+
+>>> .video-js.vjs-16-9, >>> .video-js.vjs-4-3 {
+  /* 视频占满容器高度 */
+  height: 100%;
+  background-color: #161616;
 }
 </style>
 <script>
