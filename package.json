@@ -14,7 +14,7 @@
   "appID": "xyz.drnet.app",
   "main": "background.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.4",
     "element-ui": "^2.13.1",
     "video.js": "^7.7.5",
